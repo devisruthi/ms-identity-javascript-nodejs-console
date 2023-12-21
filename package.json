@@ -6,11 +6,16 @@
   "bin": {
     "msal-node-cli": "bin/index.js"
   },
+  "scripts": {
+    "test": "cucumber-js -p default"
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "@azure/msal-node": "^1.14.1",
+    "assert": "^2.1.0",
     "axios": "^1.0.0",
+    "cucumber": "^6.0.7",
     "dotenv": "^16.0.3",
     "yargs": "^17.6.0"
   }
